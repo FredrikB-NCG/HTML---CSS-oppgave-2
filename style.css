@@ -11,6 +11,71 @@ body {
     margin: 10em;
     display: flex;
     flex-direction: row;
-    flex-grow: calc();
+    height: 350px;
 }
 
+.orange-box {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.cyan-box {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+
+.darkcyan-box {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', sans-serif;;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+img {
+    margin: 0;
+    width: 2.5em;
+    padding-bottom: 1.5em;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 4em;
+    padding-inline: 1.5em;
+    padding-block: 0.7em;
+    border-radius: 20px;
+    border-style: none
+}
+
+button a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.orange-box button a {
+    color: hsl(31, 77%, 52%);
+}
+
+.cyan-box button a {
+    color: hsl(184, 100%, 22%);
+}
+
+.darkcyan-box button a {
+    color: hsl(179, 100%, 13%);
+}
